@@ -1,0 +1,23 @@
+
+POST http://localhost:3000/list
+Content-Type: application/JSON 
+
+{
+    "name": "node programing",
+    "content": "programming language"
+}
+###
+get http://localhost:3000/list
+
+# ###
+
+# patch http://localhost:3000/user/60b676c757a5c701e4649b38
+# Content-Type: application/JSON 
+
+# {
+#     "name": "michelle",
+#     "content": "gozo"
+# }
+
+# ###
+# delete http://localhost:3000/user
